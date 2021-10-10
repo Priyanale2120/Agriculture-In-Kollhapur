@@ -1,0 +1,392 @@
+*{margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./nature.a");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:hue;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color:lawngreen
+    
+
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 26px 14px 0 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: lawngreen;
+    padding: 8px;
+    border-radius:0px 0px 4px 4px;
+    opacity: 0.8;
+}
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    width: 190px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: aqua;
+    height: 39px;
+}
+
+nav ul li ul li a{
+    padding: 10px 0px 8px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+nav ul li ul li a:hover {
+    background-color: aqua;
+}
+
+
+#main h1{
+
+    margin: 220px 0 0 200px;
+    padding: 10px 50px 0 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:4em;
+    position: fixed;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right,#00f260,#ffff,#f79d,#FFFF00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+     background-size: 300%;
+     background-position: -300%;
+     animation: animatedText 2s infinite alternate-reverse;
+}
+    @keyframes animatedText{
+        to{
+            background-position: 100%;
+        }
+    }
+
+/* About Page */
+
+.container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 3em;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-weight: 300px;
+    height: 60%;
+    width: 60%;
+    border: 1px solid black;
+    background-color: chartreuse;
+    opacity: 0.8;
+    box-sizing: content-box;
+    animation-name: sample;
+            animation-duration: 3s;
+        animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation-timing-function: cubic-bezier(1, 1, 0.22, 1);
+                animation-delay: 2s;    
+    }
+    @keyframes sample{
+        0%{border-radius: 0%; background-color: lawngreen;}
+        25%{background-color:pink;}
+        25%{background-color:yellow;}
+       100%{border-radius: 50%; background-color: tomato; color: aliceblue;
+    }
+    }
+    
+.p1{
+    line-height: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+    margin:70px 50px 0px 50px;
+    text-indent: 70px;
+    color: white;
+    padding: 20px 20px 118px 20px;
+}
+
+/* Sugercane Page */
+.mainPage{
+    background:linear-gradient(to left,#8942a8,#ba382f);
+    height:auto
+}
+
+.SugercaneImge{
+    float: left;
+    width: 600px;
+    height: 555px;
+    padding: 0px 0px 0px 0;
+     border: 2px solid black; 
+     margin-right: 20px;
+}
+.p2 {
+    line-height: 25px;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-right:10px;
+    text-indent: 70px;
+    padding: 10px 7px 0 10px;
+    color: white;
+    text-decoration: double;
+    height: 550px;
+}
+.p2 h1{
+    margin-top:30px;
+    text-align: center;
+    padding: 5px 0px 40px 0px;
+    font-size:2em;
+    font-family: sans-serif;
+    color:lawngreen;
+    text-shadow: 3px 3px slategrey;
+}
+      .a1{
+        position: absolute;
+        height: 40px;
+        display: flex;
+        width: 175px;
+        padding: 15px 40px 0px 0px;
+        background: linear-gradient(  #fff333 ,#00ffff);
+        position: absolute;
+        margin: 555px 200px 30px 650px;
+        float: right;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-align: center;
+        font-family: sans-serif;
+        text-decoration: none;
+        border-radius: 7px;
+
+    } 
+
+
+/* Rice */
+
+.riceImage{
+    float: right;
+    width: 600px;
+    height: 555px;
+    padding: 0px 0px 0px 0;
+     border: 2px solid black; 
+     margin-left: 19px;
+}
+.p3{
+    line-height: 25px;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-right:10px;
+    text-indent: 70px;
+    padding: 10px 7px 0 10px;
+    color: white;
+   text-decoration: double; 
+    height: 550px;
+}
+
+.p3 h1{
+    margin-top:20px;
+    text-align: center;
+    padding: 5px 0px 40px 0px;
+    font-size:2em;
+    font-family: sans-serif;
+    color:lawngreen;
+    text-shadow: 3px 3px slategrey;
+}
+.a2{
+    position: absolute;
+    height: 40px;
+    display: flex;
+    width: 175px;
+    padding: 15px 40px 0px 0px;
+    background: linear-gradient(  #fff333 ,#00ffff);
+    position: absolute;
+    margin: 400px 600px 90px 130px;
+    float: right;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+
+} 
+
+    /* Sunflower */
+    .SunflowerImage{
+        float: left;
+        width: 600px;
+        height: 555px;
+        padding: 0px 0px 0px 0;
+         border: 2px solid black; 
+         margin-right: 20px;
+    }
+    .p4{
+        line-height: 25px;
+        font-size: 1.3em;
+        text-align: justify;
+        margin-right:10px;
+        text-indent: 70px;
+        padding: 10px 7px 0 10px;
+        color: white;
+        text-decoration: double;
+        height: 550px;
+    }
+    .p4 h1{
+        margin-top:30px;
+        text-align: center;
+        padding: 5px 0px 40px 0px;
+        font-size:2em;
+        font-family: sans-serif;
+        color:lawngreen;
+        text-shadow: 3px 3px slategrey;
+    
+    }
+    .a3{
+    position: absolute;
+    height: 40px;
+    display: flex;
+    width: 175px;
+    padding: 15px 40px 0px 0px;
+    background: linear-gradient(  #fff333 ,#00ffff);
+    position: absolute;
+    margin: 500px 200px 80px 650px;
+    float: right;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+
+} 
+
+            /* Corn */
+            .cornImage{
+    float: right;
+    width: 600px;
+    height: 555px;
+    padding: 0px 0px 0px 0;
+     border: 2px solid black; 
+     margin-left: 19px;
+}
+.p4{
+    line-height: 25px;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-right:10px;
+    text-indent: 70px;
+    padding: 10px 7px 0 10px;
+    color: white;
+   text-decoration: double; 
+    height: 550px;
+}
+
+.p4 h1{
+    margin-top:20px;
+    text-align: center;
+    padding: 5px 0px 40px 0px;
+    font-size:2em;
+    font-family: sans-serif;
+    color:lawngreen;
+    text-shadow: 3px 3px slategrey;
+}
+.a4{
+    position: absolute;
+    height: 40px;
+    display: flex;
+    width: 175px;
+    padding: 15px 40px 0px 0px;
+    background: linear-gradient(  #fff333 ,#00ffff);
+    position: absolute;
+    margin: 450px 600px 90px 130px;
+    float: right;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+
+} 
+
+/* peanuts */
+.peanutImage{
+    float: left;
+    width: 600px;
+    height: 555px;
+    padding: 0px 0px 0px 0;
+     border: 2px solid black; 
+     margin-right: 20px;
+}
+.p5{
+    line-height: 25px;
+    font-size: 1.3em;
+    text-align: justify;
+    margin-right:10px;
+    text-indent: 70px;
+    padding: 10px 7px 0 10px;
+    color: white;
+   text-decoration: double; 
+    height: 550px;
+}
+
+.p5 h1{
+    margin-top:20px;
+    text-align: center;
+    padding: 5px 0px 40px 0px;
+    font-size:2em;
+    font-family: sans-serif;
+    color:lawngreen;
+    text-shadow: 3px 3px slategrey;
+}
+.a5{
+    position: absolute;
+    height: 40px;
+    display: flex;
+    width: 175px;
+    padding: 15px 40px 0px 0px;
+    background: linear-gradient(  #fff333 ,#00ffff);
+    position: absolute;
+    margin: 500px 200px 100px 650px;
+    float: right;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    border-radius: 7px;
+}
